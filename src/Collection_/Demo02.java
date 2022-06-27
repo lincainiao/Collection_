@@ -8,7 +8,6 @@ import java.util.Iterator;
  * 演示Collection的使用
  * 往集合中添加类
  */
-
 public class Demo02 {
     public static void main(String[] args) {
         Collection collection = new ArrayList();

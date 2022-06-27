@@ -17,6 +17,7 @@ public class Demo06 {
                 return n1==0? n2 : n1;
             }
         });
+
         Person person1 =new Person("lin",22);
         Person person2 =new Person("zhao",20);
         Person person3 =new Person("zz",24);

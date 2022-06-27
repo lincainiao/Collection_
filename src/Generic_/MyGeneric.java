@@ -17,7 +17,6 @@ public class MyGeneric<T> {
         System.out.println(t);
     }
 
-
     public void setT(T t) {
         this.t = t;
     }

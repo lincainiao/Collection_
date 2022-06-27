@@ -1,5 +1,7 @@
 package Collection_;
 
+import com.sun.management.GarbageCollectionNotificationInfo;
+
 import java.util.*;
 
 //工具类的使用
@@ -27,6 +29,9 @@ public class Demo03 {
         System.out.println("after sort : "+list.toString());
         //二分查找，找到返回下标，使用之前需要先对list进行排序
         System.out.println("binarySearch : ");
+        // for (Object o : list) {
+        //     System.out.println(o.toString()+" : "+Collections.binarySearch(list,o));
+        // }
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i)+" : "+Collections.binarySearch(list,list.get(i)));
         }

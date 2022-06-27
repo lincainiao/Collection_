@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 //泛型集合
-//避免类型转换一场
+//避免类型转换异常
 public class Demo02 {
     public static void main(String[] args) {
         //Integer类泛型
